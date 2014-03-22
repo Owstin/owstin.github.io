@@ -1,16 +1,16 @@
 ﻿<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>( ͡° ͜ʖ ͡°) You mad doge?</title>
-		<link href="avail.ico" type="image/x-icon" rel="shortcut icon">
+<head>
+	<meta charset="utf-8">
+	<title>( ͡° ͜ʖ ͡°) You mad doge?</title>
+	<link href="avail.ico" type="image/x-icon" rel="shortcut icon">
 	<style>
 		HTML, body {
 		 background:#ffff;
 		 background-image: url(http://InsertYourLinkHere);
-		 background-repeat: repeat;    /* another option would be no-repeat */
-		 color:#000000;     /* This changes your text color */
-		 text-shadow: rgba(0,0,0,0.00);    /* rgba means r= red, g=green, b=blue, a=alpha (opacity) */
+		 background-repeat: repeat;
+		 color:#000000;
+		 text-shadow: rgba(0,0,0,0.00);
 		font-family:tahoma;
 		}
 
@@ -35,17 +35,32 @@
 			font-size:8pt;
 			border-spacing:0px;
 			vertical-align:top;
+			vertical-align:text-top;
 		}
 
 		table {
 			margin-left:auto; 
 			margin-right:auto;
-			width:720px;
+			width:697px;
 			line-height:18px;
 		}
 
 		td {
 			padding:3px 8px 3px 8px;
+		}
+
+		.has-left .skype {
+			border:1px solid #E7F1F5;
+			border-right:0px;
+			color:#000000;
+			border-bottom-left-radius:4px;
+			border-top-left-radius:4px;
+		}
+		.has-left .time-stamp {
+			border:1px solid #E7F1F5;
+			border-left:0px;
+			border-bottom-right-radius:4px;
+			border-top-right-radius:4px;
 		}
 
 		.time-stamp {
@@ -58,15 +73,14 @@
 		}
 		.skype {
 		 text-align:left;
-		 vertical-align:bottom;
 		}
 	</style>
 </head>
-	<body>
-		<div style="margin:24px;"><a href="http://owstin.github.io/" class="back-button">&laquo; More Struggles</a></div>
-		<h1 style="text-align:center;"><a href="https://www.youtube.com/watch?v=bd48tI1D_jo">Vιrαιτh's Struggle</a></h1>
+<body>
+	<div style="margin:24px;"><a href="http://owstin.github.io/" class="back-button">&laquo; More Struggles</a></div>
+	<h1 style="text-align:center;"><a href="https://www.youtube.com/watch?v=bd48tI1D_jo">Vιrαιτh's Struggle</a></h1>
 		
-		<table>
+	<table>
 		
 		<tr>
 		<td class="author" style="vertical-align:bottom;"> Λν Tom </td>
@@ -356,9 +370,9 @@
 		<td class="time-stamp">9:50 AM</td>
 		</tr>
 		
-		<tr>
+		<tr class="has-left">
 		<td class="author"></td>
-		<td class="time-stamp">*** Λν Vιrαιτh has left ***</td>
+		<td class="skype">- <b>Λν Vιrαιτh</b> has left</td>
 		<td class="time-stamp">9:50 AM</td>
 		</tr>
 		
@@ -374,6 +388,6 @@
 		<td class="skype"> </td>
 		</tr>
 		
-		</table>
-	</body>
+	</table>
+</body>
 </html>
